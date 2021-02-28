@@ -1,0 +1,24 @@
+
+
+@media only screen and (min-width: 751px) {
+    h3.teks-kartu{
+        font-size: 2rem;
+        background-color: none;
+    }
+    p.teks-kartu {
+        font-size: 1.4rem;
+        background-color: none;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+    h3.teks-kartu {
+        font-size: 4vw;
+        background-color: none;
+    }
+    p.teks-kartu {
+        font-size: 3vw;
+        background-color: none;
+    }
+}

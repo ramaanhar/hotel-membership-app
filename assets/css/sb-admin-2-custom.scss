@@ -1,0 +1,11 @@
+$theme-colors: (
+    "primary": #60bb46
+);
+
+@import "../scss/sb-admin-2.scss";
+
+.bg-login-image-custom {
+
+    @include .bg-login-image;
+    background: url('../img/bg/login-bg.jpg');
+  }
